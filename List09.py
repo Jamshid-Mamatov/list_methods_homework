@@ -6,4 +6,11 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    count=fruits.count('apple')
+    list_index=[]
+    for index,fruit in enumerate(fruits):
+        if fruit=='apple':
+            fruits.remove('apple')
+            list_index.append(index)
+
+    return list_index

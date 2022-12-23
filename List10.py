@@ -6,4 +6,12 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    count_0=0
+    count_1=0
+    for item in list1:
+        if item==0:
+            count_0+=1
+        else:
+            count_1+=1
+
+    return [count_0,count_1]

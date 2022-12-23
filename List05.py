@@ -9,4 +9,9 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    return
+    del_item=numbers1.pop(-1)
+
+    numbers2.insert(0,del_item)
+
+    numbers1.extend(numbers2)
+    return numbers1
