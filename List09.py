@@ -10,7 +10,6 @@ def main(fruits):
     list_index=[]
     for index,fruit in enumerate(fruits):
         if fruit=='apple':
-            fruits.remove('apple')
             list_index.append(index)
 
     return list_index

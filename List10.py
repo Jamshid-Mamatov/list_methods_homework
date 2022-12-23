@@ -14,4 +14,4 @@ def main(list1):
         else:
             count_1+=1
 
-    return [count_0,count_1]
+    return [count_1,count_0]
