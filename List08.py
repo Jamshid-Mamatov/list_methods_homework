@@ -10,7 +10,7 @@ def main(fruits):
     for fruit in fruits:
         
         if fruit!='apple':
-            fruit.append(fruit)
+            new_list.append(fruit)
         
     return new_list
 

@@ -11,5 +11,5 @@ def main(fruits):
     for index,fruit in enumerate(fruits):
         if fruit=='apple':
             list_index.append(index)
-
+    list_index.insert(0,count)
     return list_index
